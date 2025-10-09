@@ -1,0 +1,52 @@
+/* Fix carousel image sizes */
+#carouselExampleCaptions .carousel-inner img {
+	height: 700px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.custom-border {
+	margin: auto;
+	background: linear-gradient(180deg, #91C8E4, #749BC2, #4682A9);
+	color: white;
+	border-radius: 15px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	border: 2px solid #e0e0e0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Libre Baskerville', serif;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+.gradient-background {
+	background: linear-gradient(180deg, #91C8E4, #749BC2, #4682A9);
+	background-size: 180% 180%;
+	animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.custom-bg {
+	background-color: #91C8E4;
+}
+
+.feature-icon {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 0.75rem;
+}
